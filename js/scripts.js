@@ -1,3 +1,1 @@
-$(document).ready(function(){
-  alert("Csá OP");
-});
+alert("Csá OP");
