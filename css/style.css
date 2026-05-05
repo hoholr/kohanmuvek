@@ -1,1 +1,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.tgl-btn{position: fixed;right: 2rem; bottom: 2rem;border-radius: 5rem;line-height: 1.3rem;}
+.tgl-btn small{font-size: .7rem;}
+.tgl-btn .bi-thunderbolt-fill{font-size: 1.5rem}
+.tgl-btn .bi-toggle-off,.tgl-btn .bi-toggle-on{font-size: 2.5rem}
+.circle {padding: .8rem; border-radius: 50%;}
+[data-toggle]{cursor: pointer;}
+.bg-blue-gradient{background: radial-gradient(at 70% 20%, oklch(0.72 0.16 235 / 0.4), transparent 60%), linear-gradient(oklch(0.99 0.008 235), oklch(0.94 0.018 235));}
+.text-serif{font-family: "Playfair Display", serif;}
+.bg-butter{background: linear-gradient(rgb(254, 250, 241), oklch(0.96 0.022 85));}
+.bg-babyblue{background: linear-gradient(oklch(0.985 0.008 235), oklch(0.95 0.025 235))}
+#toggler-villany button i, #toggler-klima button i {font-size: 3rem;}
+#toggler-villany button, #toggler-klima button {border-radius: 2rem;font-weight: normal;font-size: 1rem; line-height: 1.3rem;}
+.toggle.klima {display: none;} 

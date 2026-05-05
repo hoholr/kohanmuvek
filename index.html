@@ -13,39 +13,75 @@
     <title>Villanyszerelés vagy klímatisztítás? Kohán Művek!</title>
   </head>
   <body>
-    <div class="toggle">
+    <div class="toggle villany">
       <img src="assets/kohan1.jpg" class="img-fluid">
     </div>
-    <div class="togle d-none">
+    <div class="toggle klima">
       <img src="assets/kohan2.jpg" class="img-fluid">
     </div>
 
 <style>
-.tgl-btn{position: fixed;right: 2rem; bottom: 2rem;border-radius: 2rem;box-shadow: 0px 0px 5px black;padding: 1rem 2rem;}
 </style>
 
-    <div class="tgl-btn">
-      <div><i class="bi bi-thunderbolt-fill"></i></div>
-      <div><small class="text-secondary">VÁLTÁS</small><br />Klímatisztítás</div>
-      <div><i class="bi bi-facebook"></i></div>
+    <div class="tgl-btn tgl-btn-klima d-flex bg-light text-dark shadow p-3 border" data-toggle="modal" data-target="#toggler-villany">
+      <div class="my-auto"><i class="bi bi-thunderbolt-fill circle text-white bg-primary"></i></div>
+      <div class="my-auto mx-3"><small class="text-secondary">VÁLTÁS</small><br />Klímatisztítás</div>
+      <div class="my-auto"><i class="bi bi-toggle-off text-primary"></i></div>
     </div>
 
-    <div class="modal fade" id="toggler">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-              <span class="sr-only">Close</span>
-            </button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
+    <div class="tgl-btn tgl-btn-villany d-none bg-light text-dark shadow p-3 border" data-toggle="modal" data-target="#toggler-klima">
+      <div class="my-auto"><i class="bi bi-lightning-charge circle text-white bg-warning"></i></div>
+      <div class="my-auto mx-3"><small class="text-secondary">VÁLTÁS</small><br />Villanyszerelés</div>
+      <div class="my-auto"><i class="bi bi-toggle-on text-warning"></i></div>
+    </div>
+
+    <div class="modal fade" id="toggler-villany">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content bg-babyblue px-4 py-5">
           <div class="modal-body">
-            <p>One fine body&hellip;</p>
+          <p class="text-center small mb-2 text-secondary">KOHÁN SZERVÍZ</p>
+          <p class="text-center h3 text-serif font-weight-bold text-dark mb-5">MIVEL KAPCSOLATBAN SEGÍTHETEK?</p>
+          <div class="btn-group w-100" role="group" aria-label="Basic example">
+            
+            <button type="button" class="btn btn-secondary bg-butter text-dark text-left mr-2 border shadow py-3 px-4 close" onclick="villanyShow()" data-dismiss="modal" aria-label="Close">
+              <i class="bi bi-lightning-charge text-warning mb-2 d-block"></i>
+              <div class="text-serif h4">Villanyszerelés</div>
+              Hibaelhárítás, új hálózat, felújítás, okosotthon — minden, ami áram.
+            </button>
+            
+            <button type="button" class="btn btn-secondary bg-babyblue text-dark text-left ml-2 border shadow py-3 px-4 close" onclick="klimaShow()" data-dismiss="modal" aria-label="Close">
+              <i class="bi bi-thunderbolt-fill text-primary mb-2 d-block"></i>
+              <div class="text-serif h4">Klímatisztítás</div>
+              Hibaelhárítás, új hálózat, felújítás, okosotthon — minden, ami áram.
+            </button>
+
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="toggler-klima">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content bg-babyblue px-4 py-5">
+          <div class="modal-body">
+          <p class="text-center small mb-2 text-secondary">KOHÁN SZERVÍZ</p>
+          <p class="text-center h3 text-serif font-weight-bold text-dark mb-5">MIVEL KAPCSOLATBAN SEGÍTHETEK?</p>
+          <div class="btn-group w-100" role="group" aria-label="Basic example">
+            
+            <button type="button" class="btn btn-secondary bg-butter text-dark text-left mr-2 border shadow py-3 px-4 close" onclick="villanyShow()" data-dismiss="modal" aria-label="Close">
+              <i class="bi bi-lightning-charge text-warning mb-2 d-block"></i>
+              <div class="text-serif h4">Villanyszerelés</div>
+              Hibaelhárítás, új hálózat, felújítás, okosotthon — minden, ami áram.
+            </button>
+            
+            <button type="button" class="btn btn-secondary bg-babyblue text-dark text-left ml-2 border shadow py-3 px-4 close" onclick="villanyShow()" data-dismiss="modal" aria-label="Close">
+              <i class="bi bi-thunderbolt-fill text-primary mb-2 d-block"></i>
+              <div class="text-serif h4">Klímatisztítás</div>
+              Hibaelhárítás, új hálózat, felújítás, okosotthon — minden, ami áram.
+            </button>
+
+          </div>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
