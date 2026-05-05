@@ -1,1 +1,1 @@
-alert("Csá OP");
+console.log("Csá OP");
