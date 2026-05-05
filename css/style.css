@@ -5,7 +5,7 @@
 .tgl-btn small{font-size: .7rem;}
 .tgl-btn .bi-thunderbolt-fill{font-size: 1.5rem}
 .tgl-btn .bi-toggle-off,.tgl-btn .bi-toggle-on{font-size: 2.5rem}
-.circle {padding: .8rem; border-radius: 50%;width: 3.1rem;height: 3.1rem;}
+.circle {padding: .8rem; border-radius: 50%;width: 3.1rem;height: 3.1rem;display: block;}
 [data-toggle]{cursor: pointer;}
 .bg-blue-gradient{background: radial-gradient(at 70% 20%, oklch(0.72 0.16 235 / 0.4), transparent 60%), linear-gradient(oklch(0.99 0.008 235), oklch(0.94 0.018 235));}
 .text-serif{font-family: "Playfair Display", serif;}
