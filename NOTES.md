@@ -6,6 +6,12 @@
 
 ---
 
+# Fájlok
+
+[PROTON DRIVE](https://drive.proton.me/urls/286DH4D8HG#77E9pOsXIn1p)
+
+---
+
 # Színek
 
 [Paletta](https://coolors.co/5ae4aa-f5d491-9ac4f8)
@@ -28,8 +34,10 @@
 
 ## Kérdések
 
-- [x] domain
+- [ ] domain
 - [ ] szlogen
+- [ ] szövegek
+- [ ] FB profil + szakmai oldal
 
 ## Megnézni
 
