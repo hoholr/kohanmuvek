@@ -8,7 +8,7 @@
 
 # Fájlok
 
-<a href="https://drive.proton.me/urls/286DH4D8HG#77E9pOsXIn1p" target="_blank"><img src="/FortAwesome/Font-Awesome/blob/840c215f894f429b26b8c1402a65da835dc5a450/svgs/solid/cloud.svg" style="height:1rem;"></a>
+[:file_folder: PROTON](https://drive.proton.me/urls/286DH4D8HG#77E9pOsXIn1p)
 
 ---
 
