@@ -34,6 +34,7 @@
 
 ## Kérdések
 
+- [ ] tárhely
 - [ ] domain
 - [ ] szlogen
 - [ ] szövegek
