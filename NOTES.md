@@ -8,7 +8,7 @@
 
 # Fájlok
 
-[![proton icon]](https://github.com/FortAwesome/Font-Awesome/blob/840c215f894f429b26b8c1402a65da835dc5a450/svgs/solid/cloud.svg)](https://drive.proton.me/urls/286DH4D8HG#77E9pOsXIn1p)
+[![proton icon](https://github.com/FortAwesome/Font-Awesome/blob/840c215f894f429b26b8c1402a65da835dc5a450/svgs/solid/cloud.svg)](https://drive.proton.me/urls/286DH4D8HG#77E9pOsXIn1p)
 
 ---
 
