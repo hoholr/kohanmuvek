@@ -28,7 +28,7 @@
 
 ## Kérdések
 
-- [ ] domain
+- [x] domain
 - [ ] szlogen
 
 ## Megnézni
